@@ -28,3 +28,10 @@ onAuthStateChanged(auth, async (user) => {
     }
 
 });
+document
+    .getElementById("agregarMascota")
+    .addEventListener("click", () => {
+
+        window.location.href = "agregar-mascota.html";
+
+    });

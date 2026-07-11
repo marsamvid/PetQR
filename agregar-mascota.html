@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar mascota - PetQR</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+<div class="formulario-container">
+
+    <div class="formulario">
+
+        <h1>🐾 Registrar mascota</h1>
+
+        <p>Completá la información de tu mascota.</p>
+
+        <form id="mascotaForm">
+
+            <label>Nombre</label>
+            <input id="nombreMascota" type="text" required>
+
+            <label>Especie</label>
+            <select id="especie" required>
+                <option value="">Seleccionar</option>
+                <option>Perro</option>
+                <option>Gato</option>
+                <option>Ave</option>
+                <option>Conejo</option>
+                <option>Caballo</option>
+                <option>Otro</option>
+            </select>
+
+            <label>Raza</label>
+            <input id="raza" type="text">
+
+            <label>Edad</label>
+            <input id="edad" type="text">
+
+            <button type="submit">
+                💾 Guardar mascota
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+<script type="module" src="js/agregar-mascota.js"></script>
+
+</body>
+</html>
