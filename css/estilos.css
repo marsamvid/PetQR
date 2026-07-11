@@ -1,21 +1,154 @@
+/* ===========================
+   PETQR - Estilos principales
+   =========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
 body{
-    background-color:  rgb(252, 226, 230);;
-    font-family:Arial, sans-serif;
-    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #ffd6e8, #f8b4d9);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:30px;
 }
-h1{
-    color: #4F46E5;
-     font-size:48px;
+
+.contenedor{
+    width:100%;
+    max-width:420px;
 }
+
 .tarjeta{
-  width: 450px;
-    margin: 40px auto;
-    background: white;
-    border-radius: 20px;
-    padding: 30px;
-    box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
-}img{
-    width:220px;
-    border-radius:50%;
+    background:white;
+    border-radius:25px;
+    padding:35px 25px;
+    text-align:center;
+    box-shadow:0 15px 40px rgba(0,0,0,.25);
 }
-    
+
+.logo{
+    .encabezado{
+    margin-bottom:25px;
+}
+
+.logo{
+    font-size:2.2rem;
+    color:#333;
+}
+
+.subtitulo{
+    margin-top:8px;
+    color:#777;
+    font-size:1rem;
+}
+}
+
+.fotoMascota{
+    width:180px;
+    height:180px;
+    object-fit:cover;
+    border-radius:50%;
+    border:6px solid white;
+    box-shadow:0 8px 25px rgba(0,0,0,.25);
+    margin-bottom:20px;
+    transition:0.3s;
+    .fotoMascota:hover{
+        transform:scale(1.05);
+    }
+}
+
+.nombre{
+    font-size:2rem;
+    color:#333;
+    margin-bottom:10px;
+}
+
+.mensaje{
+    color:#666;
+    line-height:1.6;
+    margin-bottom:30px;
+    font-size:1.05rem;
+}
+
+.botones{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    margin-bottom:35px;
+}
+
+.whatsapp-btn,
+.llamar-btn{
+    text-decoration:none;
+    color:white;
+    padding:15px;
+    border-radius:15px;
+    font-size:1.05rem;
+    font-weight:bold;
+    transition:0.25s;
+}
+
+.whatsapp-btn{
+    background:#25D366;
+}
+
+.whatsapp-btn:hover{
+    background:#1eb95b;
+    transform:translateY(-3px);
+}
+
+.llamar-btn{
+    background:#007BFF;
+}
+
+.llamar-btn:hover{
+    background:#0062cc;
+    transform:translateY(-3px);
+}
+
+.info{
+    text-align:left;
+    background:#f8f8f8;
+    padding:20px;
+    border-radius:18px;
+}
+
+.info h3{
+    text-align:center;
+    margin-bottom:18px;
+    color:#333;
+}
+
+.info p{
+    margin:12px 0;
+    color:#555;
+    font-size:1rem;
+}
+
+.gracias{
+    margin-top:30px;
+    font-size:1rem;
+    color:#777;
+}
+
+@media(max-width:480px){
+
+    .tarjeta{
+        padding:25px 18px;
+    }
+
+    .fotoMascota{
+        width:150px;
+        height:150px;
+    }
+
+    .nombre{
+        font-size:1.6rem;
+    }
+
+}
