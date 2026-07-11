@@ -22,8 +22,7 @@ formulario.addEventListener("submit", (e) => {
 
             window.location.href = "panel.html";
 
-            // Después redirigiremos al panel
-            // window.location.href = "panel.html";
+            
 
         })
 
