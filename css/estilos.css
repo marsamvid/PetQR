@@ -248,3 +248,249 @@ body{
     color:#555;
 
 }
+/* =========================
+   LANDING PAGE PETQR
+   ========================= */
+
+
+.landing{
+
+    min-height:100vh;
+    padding:40px 20px;
+
+}
+
+
+.hero{
+
+    max-width:700px;
+    margin:auto;
+    text-align:center;
+    padding:50px 20px;
+
+}
+
+
+.hero h1{
+
+    font-size:3.5rem;
+    color:#d63384;
+    margin-bottom:20px;
+
+}
+
+
+.hero h2{
+
+    font-size:2rem;
+    color:#333;
+    margin-bottom:20px;
+
+}
+
+
+.hero p{
+
+    font-size:1.2rem;
+    color:#666;
+    line-height:1.6;
+    margin-bottom:35px;
+
+}
+
+
+.acciones{
+
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+
+}
+
+
+.boton-principal,
+.boton-secundario{
+
+    text-decoration:none;
+    padding:15px 30px;
+    border-radius:30px;
+    font-weight:bold;
+    font-size:1.1rem;
+    transition:.3s;
+
+}
+
+
+.boton-principal{
+
+    background:#d63384;
+    color:white;
+
+}
+
+
+.boton-principal:hover{
+
+    transform:translateY(-3px);
+
+}
+
+
+
+.boton-secundario{
+
+    background:white;
+    color:#d63384;
+    border:2px solid #d63384;
+
+}
+
+
+.boton-secundario:hover{
+
+    transform:translateY(-3px);
+
+}
+
+
+
+.beneficios{
+
+    max-width:900px;
+    margin:40px auto;
+    text-align:center;
+
+}
+
+
+.tarjetas{
+
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    flex-wrap:wrap;
+
+}
+
+
+.tarjeta-beneficio{
+
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    width:250px;
+    box-shadow:0 10px 25px rgba(0,0,0,.1);
+
+}
+
+
+.tarjeta-beneficio h3{
+
+    color:#d63384;
+    margin-bottom:15px;
+
+}
+
+
+.como-funciona{
+
+    text-align:center;
+    margin-top:50px;
+
+}
+
+
+.como-funciona p{
+
+    margin:15px;
+    font-size:1.1rem;
+
+}
+
+/* =====================
+   FORMULARIOS PETQR
+   ===================== */
+
+
+.formulario-container{
+
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+
+}
+
+
+.formulario{
+
+    background:white;
+    width:100%;
+    max-width:420px;
+    padding:35px;
+    border-radius:25px;
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+    text-align:center;
+
+}
+
+
+.formulario h1{
+
+    color:#d63384;
+    margin-bottom:15px;
+
+}
+
+
+.formulario p{
+
+    color:#666;
+    margin-bottom:25px;
+
+}
+
+
+.formulario form{
+
+    display:flex;
+    flex-direction:column;
+    text-align:left;
+
+}
+
+
+.formulario label{
+
+    margin-top:15px;
+    margin-bottom:5px;
+    font-weight:bold;
+
+}
+
+
+.formulario input{
+
+    padding:12px;
+    border-radius:10px;
+    border:1px solid #ddd;
+    font-size:1rem;
+
+}
+
+
+.formulario button{
+
+    margin-top:25px;
+    padding:14px;
+    border:none;
+    border-radius:20px;
+    background:#d63384;
+    color:white;
+    font-size:1.1rem;
+    font-weight:bold;
+    cursor:pointer;
+
+}
