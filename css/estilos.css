@@ -209,6 +209,10 @@ body{
     font-weight:bold;
     transition:.25s;
 
+    border:none;
+    cursor:pointer;
+    width:100%;
+
 }
 
 
