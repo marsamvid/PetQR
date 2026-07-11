@@ -222,3 +222,29 @@ body{
     transform:translateY(-3px);
 
 }
+.caracteristicas{
+
+    margin-top:20px;
+    background:#fdf0f5;
+    border-radius:18px;
+    padding:20px;
+    text-align:left;
+
+}
+
+
+.caracteristicas h3{
+
+    text-align:center;
+    color:#d63384;
+    margin-bottom:15px;
+
+}
+
+
+.caracteristicas p{
+
+    margin:12px 0;
+    color:#555;
+
+}
