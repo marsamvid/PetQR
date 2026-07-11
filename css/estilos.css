@@ -494,3 +494,29 @@ body{
     cursor:pointer;
 
 }
+/* ===== PANEL ===== */
+
+.panel{
+    max-width:1000px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+.panel-header{
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    margin-bottom:30px;
+}
+
+.panel-header h1{
+    color:#d63384;
+}
+
+.mis-mascotas{
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}

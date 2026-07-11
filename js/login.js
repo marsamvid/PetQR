@@ -20,7 +20,7 @@ formulario.addEventListener("submit", (e) => {
 
         .then(() => {
 
-            alert("🎉 Bienvenido a PetQR");
+            window.location.href = "panel.html";
 
             // Después redirigiremos al panel
             // window.location.href = "panel.html";
