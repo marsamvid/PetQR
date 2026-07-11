@@ -152,3 +152,69 @@ body{
     }
 
 }
+.identificacion{
+    background:#fff0f6;
+    border-radius:15px;
+    padding:12px;
+    margin:15px 0 25px;
+    color:#666;
+    font-size:.95rem;
+}
+
+.identificacion p{
+    margin:6px 0;
+}
+.medico{
+
+    margin-top:20px;
+    background:#fff0f6;
+    border-radius:18px;
+    padding:15px;
+    text-align:left;
+
+}
+
+
+.medico summary{
+
+    cursor:pointer;
+    font-weight:bold;
+    color:#d63384;
+    font-size:1.05rem;
+
+}
+
+
+.datos-medicos{
+
+    margin-top:15px;
+    color:#555;
+
+}
+
+
+.datos-medicos p{
+
+    margin:12px 0;
+
+}
+.ubicacion-btn{
+
+    text-decoration:none;
+    color:white;
+    background:#ff9800;
+    padding:15px;
+    border-radius:15px;
+    font-size:1.05rem;
+    font-weight:bold;
+    transition:.25s;
+
+}
+
+
+.ubicacion-btn:hover{
+
+    background:#e68900;
+    transform:translateY(-3px);
+
+}
